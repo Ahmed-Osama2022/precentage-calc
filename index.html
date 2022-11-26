@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <meta http-equiv="refresh" content="2"> -->
+
+    <link rel="icon" href="./images/calculator-icon.png">
+
+    <title>Precentage Calculator</title>
+</head>
+<body>
+    <!-- Making a loader for calculation -->
+    <div id="loader" class="center"></div>
+    <!-- End loader for calculation -->
+    
+    <!-- Making an error block for the user -->
+    <div id="error" class="center">
+        <p>Error:</p>
+        <p>You're above the maximum</p>
+        <p>Try again...</p> 
+    </div>
+    <div id="error0" class="center">
+        <p>Error:</p>
+        <p>Please enter the required!!</p>
+    </div>
+    <!-- End the error block for the user -->
+
+    <header class="heading">
+        <div class="head-content">
+            <p>Calculate your precentage</p>
+        </div>
+    </header>
+    <div class="container">
+        <div class="progress">
+            <progress value="0" min="0" max="100" id="bar"></progress>
+            <div id="precentage">0%</div>
+            <input type="number" class="input-box" id="maximum" placeholder="Enter the maximum number">
+            <input type="number" class="input-box" id="current-level" placeholder="Enter your level number">
+            <button type="button" id="result">Result</button>
+        </div>
+    </div>
+    <!-- <script src="./js/old.js"></script> -->
+    <!-- <script src="./js/test.js"></script> -->
+    <script src="./js/testFinal.js"></script>
+</body>
+</html>
