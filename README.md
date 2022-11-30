@@ -1,11 +1,11 @@
-#  Precentage Calculator:
-## precentage-calc 
+#  Percentage Calculator:
+## percentage-calc 
 - This project is about a simple calculator for those who want to know their precentage in something they are make a progress in.
-- It help you getting know how much you have finished using precentage ``` % ```
+- It help you getting know how much you have finished using percentage ``` % ```
 
 - You will be motivated for sure when you know how much you have finished.
 
-- Helps getting know the precentage of students in high school or even University students etc...
+- Helps getting know the percentage of students in high school or even University students etc...
 ---
 ## Screenshots:
 - The webpage:
