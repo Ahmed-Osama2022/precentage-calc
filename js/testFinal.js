@@ -15,6 +15,8 @@ const error0 = document.getElementById('error0');
 const allInput = document.querySelectorAll('.input-box');
 // console.log(allInput);
 
+// Let's export the needed variable for a newer update
+export { maximumInput, currentLevel };
 /**
  * End with Global Variables
  */
