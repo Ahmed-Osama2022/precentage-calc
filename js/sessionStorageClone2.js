@@ -3,7 +3,7 @@
  * Done in 2023/Jun/12
  */
 
-import { maximumInput, currentLevel2 } from "./percentageToNum.js";
+import { maximumInput, currentLevel2, result } from "./percentageToNum.js";
 
 let savedNumber = sessionStorage.getItem('value%');
 maximumInput.value = savedNumber;
@@ -14,7 +14,7 @@ window.onload = () => {
 
 maximumInput.onblur = () => {
     console.log(maximumInput.value);
-    
+
     sessionStorage.setItem('value%', maximumInput.value);
     maximumInput.nextElementSibling.focus();
 };
@@ -26,7 +26,8 @@ currentLevel2.addEventListener('keyup', (e) => {
     // ||
     // console.log(e.key);
     if (e.key === 'Enter') {
-        currentLevel2.nextElementSibling.click();
+        // currentLevel2.nextElementSibling.click();
+        result.click();
         console.log('ahmed');
     };
 });

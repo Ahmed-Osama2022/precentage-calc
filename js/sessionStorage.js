@@ -3,7 +3,7 @@
  * Done in 2023/Jun/12
  */
 
-import { maximumInput, currentLevel } from "./testFinal.js";
+import { maximumInput, currentLevel } from "./main.js";
 
 let savedNumber = sessionStorage.getItem('value');
 maximumInput.value = savedNumber;

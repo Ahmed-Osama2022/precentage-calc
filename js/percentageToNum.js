@@ -18,7 +18,7 @@ const currentLevel2 = document.getElementById('current-level2');
 // console.log(allInput);
 
 // Let's export the needed variable for a newer update
-export { maximumInput, currentLevel2 };
+export { maximumInput, currentLevel2, result };
 /**
  * End with Global Variables
  */
