@@ -75,14 +75,17 @@ allInput.forEach((input) => {
             }, 1150);
             // Using the formula:
             let output;
-            output = (num1 * (num2 / 100));
+            // output = (num1 * (num2 / 100));
+            let calc = (num1 * (num2 / 100));
+            output = num1 - calc;
             // For test:
             // console.log(output);
             // console.log(typeof(output));
 
             // Update the UI: 
             // precentage.innerText = output.toFixed(2);
-            precentage.innerText = output;
+            precentage.style.fontSize = '1.2em';
+            precentage.innerText = `Your new price is: ${output}`;
             bar.value = num2;
         }
 
