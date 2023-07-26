@@ -85,7 +85,8 @@ allInput.forEach((input) => {
             // Update the UI: 
             // precentage.innerText = output.toFixed(2);
             precentage.style.fontSize = '1.2em';
-            precentage.innerText = `Your new price is: ${output}`;
+            // precentage.innerText = `Your new price is: ${output}`;
+            precentage.innerHTML = `Your new price is: <span>${output}</span>`;
             bar.value = num2;
         }
 
