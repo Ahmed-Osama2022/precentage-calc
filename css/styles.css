@@ -125,7 +125,9 @@ a {
     
     /* Shadow */
     text-shadow: 4px 0 10px #000;
-    box-shadow: 0 1px 10px 0 #022;
+    /* box-shadow: 0 1px 10px 0 #022; */
+    /* New Shadow */
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .35);
     
     padding-bottom: 25px;
     border-bottom-left-radius: 10px;
@@ -160,7 +162,9 @@ a {
     background-color: #966639;
     border-radius: 10px;
     
-    box-shadow: 0 1px 10px 0 #022;
+    /* New Shadow */
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .35);
+
 }
 .input-box {
     width: 100%;
