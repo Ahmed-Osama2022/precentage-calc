@@ -11,6 +11,10 @@ body {
     color: #ead6c8;
     width: 100%;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 /* Style for loading screen */
 .center {
     position: fixed;
@@ -135,7 +139,7 @@ body {
     width: 100%;
     /* max-width: 460px; */
     height: 70vh;
-
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,21 +151,20 @@ body {
 .progress {
     display: flex;
     justify-content: center;
-    height: 270px;
     align-items: center;
     flex-flow: column wrap;
-
+    
     /* position: relative; */
+    height: 270px;
     padding: 10px 35px;
     background-color: #966639;
     border-radius: 10px;
     
     box-shadow: 0 1px 10px 0 #022;
-
 }
 .input-box {
     width: 100%;
-    padding: 3px 6px ;
+    padding: 3px 6px;
     /* margin-top: 7px; */
     background-color: #dedede;
     color: #333;
@@ -177,9 +180,27 @@ body {
     margin-top: 7px;
 }
 #bar {
-    padding: 12px;
+    /* padding: 12px; */
     margin: 10px 0 0;
-   
+    /* NEW CODE */
+    -webkit-appearance: none;
+    width: 90%;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    background-color: #dedede;
+    border-radius: 6px;
+    outline: none;
+}
+#bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 1);
+    background-color: #d89352;
+    transition: 0.4s ease;
+    border-radius: 6px;
+    transform: rotate(45deg);
 }
 #precentage {
     font-size: 1.5em;
@@ -215,3 +236,33 @@ body {
     background-color: #d89352;
 }
 
+.next-page {
+    width: 30%;
+    max-width: 150px;
+    margin: auto;
+    padding: 8px;
+    background-color: #895a2e;
+    color: inherit;
+    outline: none;
+    border: 1px solid #bbbc;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: inherit;
+    font-weight: 600;
+    text-shadow: 1px 0 4px #002;
+
+    user-select: none;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+.next-page:hover {
+    text-shadow: 1px 0 8px #002;
+    transform: scale(0.9);
+}
+
+/* New */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
