@@ -2,9 +2,9 @@
     "name": "Percentage Calculator",
     "id": "Percentage-Calculator",
     "short_name": "Percentage Calc",
-    "start_url": "./index.html",
+    "start_url": "../index.html",
     "background_color": "#86592d",
-    
+
     "icons": [
       {
         "src": "../images/icons/manifest-icon-192.maskable.png",
