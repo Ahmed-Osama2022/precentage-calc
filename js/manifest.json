@@ -1,0 +1,37 @@
+{
+    "name": "Percentage Calculator",
+    "id": "Percentage-Calculator",
+    "short_name": "Percentage Calc",
+    "start_url": "./index.html",
+    "background_color": "#86592d",
+    
+    "icons": [
+      {
+        "src": "../images/icons/manifest-icon-192.maskable.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "../images/icons/manifest-icon-192.maskable.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable"
+      },
+      {
+        "src": "../images/icons/manifest-icon-512.maskable.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "../images/icons/manifest-icon-512.maskable.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable"
+      }
+        
+    ],
+    "display": "fullscreen",
+    "orientation": "portrait"
+}

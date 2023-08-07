@@ -8,6 +8,11 @@
 
     <link rel="icon" href="./images/calculator-icon.png">
 
+     <!-- ================== PWA ========================= -->
+     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+     <link rel="manifest" href="./js/manifest.json">
+     <!-- ===================================================== -->
+
     <title>Percentage Calculator</title>
 </head>
 <body>
@@ -49,5 +54,15 @@
     </div>
     <script type="module" src="./js/main.js"></script>
     <script type="module" src="./js/sessionStorage.js"></script>
+
+
+    <!-- ====================== PWA ==========================  -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./js/service-worker.js');
+        }
+        </script>
+    <!-- ==================================================  -->
+
 </body>
 </html>
