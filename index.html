@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,23 +9,24 @@
 
     <link rel="icon" href="./images/calculator-icon.png">
 
-     <!-- ================== PWA ========================= -->
-     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-     <link rel="manifest" href="./js/manifest.json">
-     <!-- ===================================================== -->
+    <!-- ================== PWA ========================= -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="./js/manifest.json">
+    <!-- ===================================================== -->
 
     <title>Percentage Calculator</title>
 </head>
+
 <body>
     <!-- Making a loader for calculation -->
     <div id="loader" class="center"></div>
     <!-- End loader for calculation -->
-    
+
     <!-- Making an error block for the user -->
     <div id="error" class="center">
         <p>Error:</p>
         <p>You're above the maximum</p>
-        <p>Try again...</p> 
+        <p>Try again...</p>
     </div>
     <div id="error0" class="center">
         <p>Error:</p>
@@ -59,10 +61,11 @@
     <!-- ====================== PWA ==========================  -->
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('./js/service-worker.js');
+            navigator.serviceWorker.register('./service-worker.js');
         }
-        </script>
+    </script>
     <!-- ==================================================  -->
 
 </body>
+
 </html>
