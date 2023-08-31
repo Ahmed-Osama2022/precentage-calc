@@ -8,7 +8,7 @@ workbox.routing.registerRoute(
 );
 
 // const staticCacheName = 'site-static';
-const staticCacheName = 'site-static-v1';
+const staticCacheName = 'site-static-calc-v1';
 const assets = [
     '/',
     '/index.html',
